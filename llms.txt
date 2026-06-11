@@ -1,0 +1,51 @@
+# Elfandri Fitrah Madi Negoro - Professional Portfolio
+# https://elfandrifitrah84.github.io/elfandri-portfolio/
+
+> Elfandri Fitrah Madi Negoro is a Senior Technical Product Manager with 12+ years of experience in fintech, core banking, and product operations across Indonesia and Singapore.
+
+## About
+
+Elfandri Fitrah Madi Negoro is a Senior Technical Product Manager specializing in core operations platforms, Temenos T24 Core Banking, and P2P lending at scale. He is currently at PT. Amartha Mikro Fintek in Jakarta, Indonesia, and is based in Bekasi, Indonesia.
+
+### Key Achievements
+
+- Built NGMIS (Next Gen Management Information System) from the ground up at Amartha
+- Reduced loan operation SLA from 2–3 days to minutes
+- Achieved 88.78% reduction in data patching (125,567 to ~14,085 monthly data points)
+- Managed 60–110 billion IDR monthly disbursement via Temenos T24 Core Banking
+- Handled 19–21 million daily core banking API transactions
+
+### Current Role
+
+Senior Technical Product Manager — Core Operations Platform at PT. Amartha Mikro Fintek (June 2022 — Present)
+
+### Professional Background
+
+- PT. Amartha Mikro Fintek — Senior Technical Product Manager (2022–Present)
+- INFT Singapore Pte. Ltd — Product and Project Delivery Manager (2021–2022)
+- PT. Adiwisista Finansial Teknologi — Product and Development Assistant Manager (2018–2021)
+- PT. Bank QNB Indonesia — Implementor Supervisor, Financial Inclusion (2017–2018)
+- PT Asuransi Cigna (Chub Life) — IT Infrastructure Engineer (2017)
+- PT. Bank Andara (OK Bank) — IT Operation Officer (2011–2017)
+
+### Education
+
+- Bachelor's Degree in Information Technology — Universitas ABFI Perbanas
+
+### Expertise
+
+Product Management, Temenos T24 Core Banking, P2P Lending, Microfinance, Agile/Scrum, Jira, Confluence, Postman API, Business Analysis, Go-to-Market, Financial Inclusion
+
+## Pages
+
+- Home: https://elfandrifitrah84.github.io/elfandri-portfolio/
+- About: https://elfandrifitrah84.github.io/elfandri-portfolio/about.html
+- Projects: https://elfandrifitrah84.github.io/elfandri-portfolio/portfolio.html
+- CV (PDF): https://elfandrifitrah84.github.io/elfandri-portfolio/Elfandri_Fitrah_Madi_Negoro_Product_Manager_2025.pdf
+
+## Contact
+
+- Email: elfandrifitrah@gmail.com
+- Phone: +62 857 8088 2320
+- LinkedIn: https://www.linkedin.com/in/elfandrifitrah84/
+- Location: Bekasi, Indonesia

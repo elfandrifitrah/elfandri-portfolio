@@ -1,0 +1,9 @@
+# https://elfandrifitrah84.github.io/elfandri-portfolio/
+# Update the Sitemap URL after you publish to match your GitHub Pages domain.
+
+User-agent: *
+Allow: /
+
+Disallow: /snake.html
+
+Sitemap: https://elfandrifitrah84.github.io/elfandri-portfolio/sitemap.xml
