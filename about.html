@@ -62,10 +62,14 @@
       <a href="index.html" class="nav-logo">Elfandri Fitrah</a>
       <button class="nav-toggle" aria-label="Toggle menu">☰</button>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html" class="active">About</a></li>
-        <li><a href="portfolio.html">Projects</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+        <li><a href="about.html" class="active" data-i18n="nav-about">About</a></li>
+        <li><a href="portfolio.html" data-i18n="nav-projects">Projects</a></li>
+        <li><a href="index.html#contact" data-i18n="nav-contact">Contact</a></li>
+        <li class="lang-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="id">ID</button>
+        </li>
       </ul>
     </div>
   </nav>
@@ -73,9 +77,9 @@
   <main id="main-content">
   <section class="page-hero" aria-label="About page introduction">
     <div class="container fade-in">
-      <span class="sticker sticker-primary">About Me</span>
+      <span class="sticker sticker-primary" data-i18n="about-page-sticker">About Me</span>
       <h1>Elfandri Fitrah <span class="underline-brutal">Madi Negoro</span></h1>
-      <p style="color: var(--muted-fg); max-width: 640px; margin: 1.5rem auto 0; font-size: 1.1rem; line-height: 1.8;">
+      <p style="color: var(--muted-fg); max-width: 640px; margin: 1.5rem auto 0; font-size: 1.1rem; line-height: 1.8;" data-i18n="about-page-desc">
         Senior Technical Product Manager specializing in fintech, core banking, and operations platforms. 12+ years driving growth across banking, financial technology, and insurance sectors.
       </p>
     </div>
@@ -86,14 +90,14 @@
     <div class="container">
       <div class="about-preview-grid">
         <div class="fade-in">
-          <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 1.5rem;">My Story</h2>
-          <p style="color: var(--muted-fg); line-height: 1.8; margin-bottom: 1.25rem;">
+          <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 1.5rem;" data-i18n="about-story-title">My Story</h2>
+          <p style="color: var(--muted-fg); line-height: 1.8; margin-bottom: 1.25rem;" data-i18n="about-story-1">
             Dynamic product manager professional with over 12 years of experience driving growth and profitability in technology and product development across banking, financial technology, and insurance sectors.
           </p>
-          <p style="color: var(--muted-fg); line-height: 1.8; margin-bottom: 1.25rem;">
+          <p style="color: var(--muted-fg); line-height: 1.8; margin-bottom: 1.25rem;" data-i18n="about-story-2">
             My expertise spans product management, development, and project execution — fostering innovation and enhancing operational efficiency. I'm proficient in leveraging tools such as Temenos T24 Core Banking and agile methodologies to streamline processes and elevate customer experiences.
           </p>
-          <p style="color: var(--muted-fg); line-height: 1.8;">
+          <p style="color: var(--muted-fg); line-height: 1.8;" data-i18n="about-story-3">
             Passionate about delivering exceptional results and contributing to organisational success. I transform challenges into actionable solutions, ensuring alignment with business objectives and customer needs.
           </p>
         </div>
@@ -112,29 +116,29 @@
   <section class="bg-muted">
     <div class="container">
       <div class="section-header fade-in">
-        <span class="sticker sticker-lavender">Highlights</span>
-        <h2>What Defines <span class="underline-brutal">My Work</span></h2>
+        <span class="sticker sticker-lavender" data-i18n="about-hl-sticker">Highlights</span>
+        <h2 data-i18n="about-hl-title">What Defines <span class="underline-brutal">My Work</span></h2>
       </div>
       <div class="featured-grid">
         <div class="featured-card bg-primary fade-in">
           <div class="featured-icon">🏗️</div>
-          <h3>Platform Builder</h3>
-          <p>Developed NGMIS from the ground up — an indispensable back-office tool for funding, lending, CX, HR, finance, and accounting teams.</p>
+          <h3 data-i18n="about-hl-card1-title">Platform Builder</h3>
+          <p data-i18n="about-hl-card1-desc">Developed NGMIS from the ground up — an indispensable back-office tool for funding, lending, CX, HR, finance, and accounting teams.</p>
         </div>
         <div class="featured-card bg-lavender fade-in">
           <div class="featured-icon">📊</div>
-          <h3>Data-Driven Impact</h3>
-          <p>Achieved 88.78% reduction in data patching — decreasing monthly average from 125,567 data points to approximately 14,085.</p>
+          <h3 data-i18n="about-hl-card2-title">Data-Driven Impact</h3>
+          <p data-i18n="about-hl-card2-desc">Achieved 88.78% reduction in data patching — decreasing monthly average from 125,567 data points to approximately 14,085.</p>
         </div>
         <div class="featured-card bg-secondary fade-in">
           <div class="featured-icon">⚙️</div>
-          <h3>Core Banking Expert</h3>
-          <p>6+ years hands-on with Temenos T24 — from daily COB operations at Bank Andara to managing P2P lending at Amartha scale.</p>
+          <h3 data-i18n="about-hl-card3-title">Core Banking Expert</h3>
+          <p data-i18n="about-hl-card3-desc">6+ years hands-on with Temenos T24 — from daily COB operations at Bank Andara to managing P2P lending at Amartha scale.</p>
         </div>
         <div class="featured-card bg-accent fade-in">
           <div class="featured-icon">🌏</div>
-          <h3>Global Experience</h3>
-          <p>Led product delivery at INFT Singapore, driving agile transformation and consistent monthly active user growth of 2–5%.</p>
+          <h3 data-i18n="about-hl-card4-title">Global Experience</h3>
+          <p data-i18n="about-hl-card4-desc">Led product delivery at INFT Singapore, driving agile transformation and consistent monthly active user growth of 2–5%.</p>
         </div>
       </div>
     </div>
@@ -144,8 +148,8 @@
   <section id="experience">
     <div class="container">
       <div class="section-header fade-in">
-        <span class="sticker sticker-secondary">Career</span>
-        <h2>Professional <span class="underline-brutal">Background</span></h2>
+        <span class="sticker sticker-secondary" data-i18n="about-career-sticker">Career</span>
+        <h2 data-i18n="about-career-title">Professional <span class="underline-brutal">Background</span></h2>
       </div>
       <div class="timeline">
         <div class="timeline-item fade-in">
@@ -153,48 +157,48 @@
             <span class="timeline-company">PT. Amartha Mikro Fintek</span>
             <span class="timeline-period">2022 — Present</span>
           </div>
-          <div class="timeline-role">Senior Technical Product Manager — Core Operations Platform</div>
-          <p class="timeline-desc">Built NGMIS from scratch, managed T24 Core Banking for P2P lending, reduced SLA from days to minutes, and cut data patching by 88.78%. Disbursing 60–110B IDR monthly with 19–21M daily API transactions.</p>
+          <div class="timeline-role" data-i18n="career-amartha-role">Senior Technical Product Manager — Core Operations Platform</div>
+          <p class="timeline-desc" data-i18n="career-amartha-desc">Built NGMIS from scratch, managed T24 Core Banking for P2P lending, reduced SLA from days to minutes, and cut data patching by 88.78%. Disbursing 60–110B IDR monthly with 19–21M daily API transactions.</p>
         </div>
         <div class="timeline-item fade-in">
           <div class="timeline-header">
             <span class="timeline-company">INFT Singapore Pte. Ltd</span>
             <span class="timeline-period">2021 — 2022</span>
           </div>
-          <div class="timeline-role">Product and Project Delivery Manager</div>
-          <p class="timeline-desc">Achieved 30% increase in project delivery efficiency. Drove 2–5% monthly active user growth. Led Agile/Scrum ceremonies aligned with CTO and Product Owner roadmap.</p>
+          <div class="timeline-role" data-i18n="career-inft-role">Product and Project Delivery Manager</div>
+          <p class="timeline-desc" data-i18n="career-inft-desc">Achieved 30% increase in project delivery efficiency. Drove 2–5% monthly active user growth. Led Agile/Scrum ceremonies aligned with CTO and Product Owner roadmap.</p>
         </div>
         <div class="timeline-item fade-in">
           <div class="timeline-header">
             <span class="timeline-company">PT. Adiwisista Finansial Teknologi</span>
             <span class="timeline-period">2018 — 2021</span>
           </div>
-          <div class="timeline-role">Product and Development Assistant Manager</div>
-          <p class="timeline-desc">Developed product launches, led cross-department collaborations, and established partnerships with banks, payment gateways, cloud services, and e-KYC providers.</p>
+          <div class="timeline-role" data-i18n="career-adiwisista-role">Product and Development Assistant Manager</div>
+          <p class="timeline-desc" data-i18n="career-adiwisista-desc">Developed product launches, led cross-department collaborations, and established partnerships with banks, payment gateways, cloud services, and e-KYC providers.</p>
         </div>
         <div class="timeline-item fade-in">
           <div class="timeline-header">
             <span class="timeline-company">PT. Bank QNB Indonesia</span>
             <span class="timeline-period">2017 — 2018</span>
           </div>
-          <div class="timeline-role">Implementor Supervisor, Financial Inclusion</div>
-          <p class="timeline-desc">Supervised BPR Connect project, ATM placement, and UAT for digital savings, retail internet banking, and DooEt+ app.</p>
+          <div class="timeline-role" data-i18n="career-qnb-role">Implementor Supervisor, Financial Inclusion</div>
+          <p class="timeline-desc" data-i18n="career-qnb-desc">Supervised BPR Connect project, ATM placement, and UAT for digital savings, retail internet banking, and DooEt+ app.</p>
         </div>
         <div class="timeline-item fade-in">
           <div class="timeline-header">
             <span class="timeline-company">PT Asuransi Cigna (Chub Life)</span>
             <span class="timeline-period">2017</span>
           </div>
-          <div class="timeline-role">IT Infrastructure Engineer</div>
-          <p class="timeline-desc">Server and network infrastructure, VMware Data Center/DRC management, vendor coordination.</p>
+          <div class="timeline-role" data-i18n="career-cigna-role">IT Infrastructure Engineer</div>
+          <p class="timeline-desc" data-i18n="career-cigna-desc">Server and network infrastructure, VMware Data Center/DRC management, vendor coordination.</p>
         </div>
         <div class="timeline-item fade-in">
           <div class="timeline-header">
             <span class="timeline-company">PT. Bank Andara (OK Bank)</span>
             <span class="timeline-period">2011 — 2017</span>
           </div>
-          <div class="timeline-role">IT Operation Officer</div>
-          <p class="timeline-desc">6 years managing Temenos T24 Core Banking, AndaraLink System, VMware infrastructure, and daily/monthly COB operations.</p>
+          <div class="timeline-role" data-i18n="career-andara-role">IT Operation Officer</div>
+          <p class="timeline-desc" data-i18n="career-andara-desc">6 years managing Temenos T24 Core Banking, AndaraLink System, VMware infrastructure, and daily/monthly COB operations.</p>
         </div>
       </div>
     </div>
@@ -204,13 +208,13 @@
   <section class="bg-muted">
     <div class="container">
       <div class="section-header fade-in">
-        <span class="sticker sticker-accent">Education</span>
-        <h2>Academic <span class="underline-brutal">Background</span></h2>
+        <span class="sticker sticker-accent" data-i18n="about-edu-sticker">Education</span>
+        <h2 data-i18n="about-edu-title">Academic <span class="underline-brutal">Background</span></h2>
       </div>
       <div class="education-card fade-in">
         <span class="education-icon">🎓</span>
         <div>
-          <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 0.25rem;">Bachelor's Degree in Information Technology</h3>
+          <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 0.25rem;" data-i18n="about-edu-degree">Bachelor's Degree in Information Technology</h3>
           <p style="color: var(--muted-fg);">Universitas ABFI Perbanas</p>
         </div>
       </div>
@@ -221,47 +225,47 @@
   <section id="skills">
     <div class="container">
       <div class="section-header fade-in">
-        <span class="sticker sticker-primary">Expertise</span>
-        <h2>Tools & <span class="underline-brutal">Skills</span></h2>
+        <span class="sticker sticker-primary" data-i18n="about-skills-sticker">Expertise</span>
+        <h2 data-i18n="about-skills-title">Tools & <span class="underline-brutal">Skills</span></h2>
       </div>
       <div class="skills-grid">
         <div class="skill-card fade-in">
-          <h4>Product Management</h4>
+          <h4 data-i18n="skills-pm">Product Management</h4>
           <ul class="skill-list">
-            <li>PRD & User Stories</li>
-            <li>Product Development</li>
-            <li>Business Analysis</li>
-            <li>Go-to-Market</li>
-            <li>Confluence</li>
+            <li data-i18n="skills-pm-1">PRD & User Stories</li>
+            <li data-i18n="skills-pm-2">Product Development</li>
+            <li data-i18n="skills-pm-3">Business Analysis</li>
+            <li data-i18n="skills-pm-4">Go-to-Market</li>
+            <li data-i18n="skills-pm-5">Confluence</li>
           </ul>
         </div>
         <div class="skill-card fade-in">
-          <h4>Core Banking & Fintech</h4>
+          <h4 data-i18n="skills-core">Core Banking & Fintech</h4>
           <ul class="skill-list">
-            <li>Temenos T24</li>
-            <li>Loans Origination</li>
-            <li>P2P Lending</li>
-            <li>Microfinance</li>
-            <li>Postman API</li>
+            <li data-i18n="skills-core-1">Temenos T24</li>
+            <li data-i18n="skills-core-2">Loans Origination</li>
+            <li data-i18n="skills-core-3">P2P Lending</li>
+            <li data-i18n="skills-core-4">Microfinance</li>
+            <li data-i18n="skills-core-5">Postman API</li>
           </ul>
         </div>
         <div class="skill-card fade-in">
-          <h4>Project Management</h4>
+          <h4 data-i18n="skills-proj">Project Management</h4>
           <ul class="skill-list">
-            <li>Jira</li>
-            <li>Trello</li>
-            <li>Asana</li>
-            <li>Agile/Scrum</li>
-            <li>Project Delivery</li>
+            <li data-i18n="skills-proj-1">Jira</li>
+            <li data-i18n="skills-proj-2">Trello</li>
+            <li data-i18n="skills-proj-3">Asana</li>
+            <li data-i18n="skills-proj-4">Agile/Scrum</li>
+            <li data-i18n="skills-proj-5">Project Delivery</li>
           </ul>
         </div>
         <div class="skill-card fade-in">
-          <h4>Collaboration</h4>
+          <h4 data-i18n="skills-collab">Collaboration</h4>
           <ul class="skill-list">
-            <li>Slack / Lark</li>
-            <li>Microsoft Office</li>
-            <li>Google Suite</li>
-            <li>Confluence</li>
+            <li data-i18n="skills-collab-1">Slack / Lark</li>
+            <li data-i18n="skills-collab-2">Microsoft Office</li>
+            <li data-i18n="skills-collab-3">Google Suite</li>
+            <li data-i18n="skills-collab-4">Confluence</li>
           </ul>
         </div>
       </div>
@@ -272,8 +276,8 @@
   <section class="bg-secondary">
     <div class="container">
       <div class="section-header fade-in">
-        <span class="sticker sticker-lavender">Topics</span>
-        <h2>Areas of <span class="underline-brutal">Expertise</span></h2>
+        <span class="sticker sticker-lavender" data-i18n="about-topics-sticker">Topics</span>
+        <h2 data-i18n="about-topics-title">Areas of <span class="underline-brutal">Expertise</span></h2>
       </div>
       <div class="marquee-wrap" style="border: 4px solid var(--border);">
         <div class="marquee">
@@ -292,8 +296,8 @@
 
   <section style="padding-top: 0;">
     <div class="container text-center fade-in">
-      <a href="portfolio.html" class="brutal-btn brutal-btn-primary">View My Projects →</a>
-      <a href="index.html#contact" class="brutal-btn brutal-btn-outline" style="margin-left: 1rem;">Get in Touch</a>
+      <a href="portfolio.html" class="brutal-btn brutal-btn-primary" data-i18n="btn-view-projects">View My Projects →</a>
+      <a href="index.html#contact" class="brutal-btn brutal-btn-outline" style="margin-left: 1rem;" data-i18n="btn-get-in-touch-outline">Get in Touch</a>
     </div>
   </section>
   </main>
@@ -309,6 +313,7 @@
     </div>
   </footer>
 
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

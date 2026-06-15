@@ -132,10 +132,14 @@
       <a href="index.html" class="nav-logo">Elfandri Fitrah</a>
       <button class="nav-toggle" aria-label="Toggle menu">☰</button>
       <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="portfolio.html">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html" class="active" data-i18n="nav-home">Home</a></li>
+        <li><a href="about.html" data-i18n="nav-about">About</a></li>
+        <li><a href="portfolio.html" data-i18n="nav-projects">Projects</a></li>
+        <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+        <li class="lang-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="id">ID</button>
+        </li>
       </ul>
     </div>
   </nav>
@@ -147,23 +151,23 @@
       <div class="hero-grid">
         <div class="hero-content">
           <div class="hero-badges fade-in">
-            <span class="hero-badge bg-primary">Product Manager</span>
-            <span class="hero-badge bg-lavender">Fintech</span>
-            <span class="hero-badge bg-accent">Core Banking</span>
+            <span class="hero-badge bg-primary" data-i18n="hero-badge-pm">Product Manager</span>
+            <span class="hero-badge bg-lavender" data-i18n="hero-badge-fintech">Fintech</span>
+            <span class="hero-badge bg-accent" data-i18n="hero-badge-core">Core Banking</span>
           </div>
           <h1 class="fade-in">
             <span class="title-line">Elfandri</span>
             <span class="title-line">Fitrah Madi</span>
             <span class="title-line">Negoro</span>
-            <span class="subtitle">Senior Technical Product Manager</span>
-            <span class="subtitle">Core Operations Platform</span>
+            <span class="subtitle" data-i18n="hero-subtitle-1">Senior Technical Product Manager</span>
+            <span class="subtitle" data-i18n="hero-subtitle-2">Core Operations Platform</span>
           </h1>
-          <p class="hero-description fade-in">
+          <p class="hero-description fade-in" data-i18n="hero-desc">
             Product leader with 12+ years bridging strategy and execution across banking, fintech, and insurance. I build core operations platforms from the ground up, manage Temenos T24 at scale, and turn complex operational challenges into products that deliver measurable business impact.
           </p>
           <div class="hero-actions fade-in">
-            <a href="portfolio.html" class="brutal-btn brutal-btn-primary">View Projects →</a>
-            <a href="Elfandri_Fitrah_Madi_Negoro_Product_Manager_2025.pdf" class="brutal-btn brutal-btn-outline" target="_blank" rel="noopener">Download CV</a>
+            <a href="portfolio.html" class="brutal-btn brutal-btn-primary" data-i18n="btn-view-projects">View Projects →</a>
+            <a href="Elfandri_Fitrah_Madi_Negoro_Product_Manager_2025.pdf" class="brutal-btn brutal-btn-outline" target="_blank" rel="noopener" data-i18n="btn-download-cv">Download CV</a>
           </div>
         </div>
         <div class="avatar-frame fade-in" role="img" aria-label="Portrait placeholder for Elfandri Fitrah Madi Negoro">
@@ -207,29 +211,29 @@
   <section id="featured">
     <div class="container">
       <div class="section-header fade-in">
-        <span class="sticker sticker-primary">What I Do</span>
-        <h2>Featured <span class="underline-brutal">Work</span></h2>
+        <span class="sticker sticker-primary" data-i18n="featured-sticker">What I Do</span>
+        <h2 data-i18n="featured-title">Featured <span class="underline-brutal">Work</span></h2>
       </div>
       <div class="featured-grid">
         <div class="featured-card bg-primary fade-in">
           <div class="featured-icon">🏦</div>
-          <h3>Core Banking & Fintech</h3>
-          <p>Managing Temenos T24 Core Banking for P2P lending — customer & account, loans, funds transfer, limit/facility, accounting reports, and lender/borrower portfolio at 60–110B IDR monthly disbursement.</p>
+          <h3 data-i18n="feat-card-1-title">Core Banking & Fintech</h3>
+          <p data-i18n="feat-card-1-desc">Managing Temenos T24 Core Banking for P2P lending — customer & account, loans, funds transfer, limit/facility, accounting reports, and lender/borrower portfolio at 60–110B IDR monthly disbursement.</p>
         </div>
         <div class="featured-card bg-lavender fade-in">
           <div class="featured-icon">⚡</div>
-          <h3>Product Operations</h3>
-          <p>Built NGMIS from the ground up — transforming loan monitoring, submission, disbursement, and repayment from 2–3 day SLAs into minutes while cutting data patching by 88.78%.</p>
+          <h3 data-i18n="feat-card-2-title">Product Operations</h3>
+          <p data-i18n="feat-card-2-desc">Built NGMIS from the ground up — transforming loan monitoring, submission, disbursement, and repayment from 2–3 day SLAs into minutes while cutting data patching by 88.78%.</p>
         </div>
         <div class="featured-card bg-secondary fade-in">
           <div class="featured-icon">🤝</div>
-          <h3>Cross-Functional Leadership</h3>
-          <p>Leading collaborations across IT, UI/UX, Operations, Finance, and HR. Aligning stakeholders, managing vendor partnerships, and driving initiatives within budget and timeline.</p>
+          <h3 data-i18n="feat-card-3-title">Cross-Functional Leadership</h3>
+          <p data-i18n="feat-card-3-desc">Leading collaborations across IT, UI/UX, Operations, Finance, and HR. Aligning stakeholders, managing vendor partnerships, and driving initiatives within budget and timeline.</p>
         </div>
         <div class="featured-card bg-accent fade-in">
           <div class="featured-icon">🚀</div>
-          <h3>Agile Product Delivery</h3>
-          <p>Transforming customer challenges into prioritized user stories, optimizing backlogs, and achieving 30% increase in project delivery efficiency with consistent monthly user growth.</p>
+          <h3 data-i18n="feat-card-4-title">Agile Product Delivery</h3>
+          <p data-i18n="feat-card-4-desc">Transforming customer challenges into prioritized user stories, optimizing backlogs, and achieving 30% increase in project delivery efficiency with consistent monthly user growth.</p>
         </div>
       </div>
     </div>
@@ -239,25 +243,25 @@
   <section class="bg-muted">
     <div class="container">
       <div class="section-header fade-in">
-        <span class="sticker sticker-lavender">Impact</span>
-        <h2>Key <span class="underline-brutal">Statistics</span></h2>
+        <span class="sticker sticker-lavender" data-i18n="stats-sticker">Impact</span>
+        <h2 data-i18n="stats-title">Key <span class="underline-brutal">Statistics</span></h2>
       </div>
       <div class="stats-grid">
         <div class="stat-card fade-in">
           <div class="stat-number">12+</div>
-          <div class="stat-label">Years Experience</div>
+          <div class="stat-label" data-i18n="stat-1-label">Years Experience</div>
         </div>
         <div class="stat-card fade-in">
           <div class="stat-number">88.78%</div>
-          <div class="stat-label">Data Patching Reduction</div>
+          <div class="stat-label" data-i18n="stat-2-label">Data Patching Reduction</div>
         </div>
         <div class="stat-card fade-in">
           <div class="stat-number">19–21M</div>
-          <div class="stat-label">Daily API Transactions</div>
+          <div class="stat-label" data-i18n="stat-3-label">Daily API Transactions</div>
         </div>
         <div class="stat-card fade-in">
           <div class="stat-number">60–110B</div>
-          <div class="stat-label">Monthly Disbursement (IDR)</div>
+          <div class="stat-label" data-i18n="stat-4-label">Monthly Disbursement (IDR)</div>
         </div>
       </div>
     </div>
@@ -268,43 +272,43 @@
     <div class="container">
       <div class="about-preview-grid">
         <div class="fade-in">
-          <span class="sticker sticker-accent">About</span>
-          <h2 style="font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; margin: 1rem 0;">Building Products That <span class="underline-brutal">Ship</span></h2>
-          <p style="color: var(--muted-fg); line-height: 1.8; margin-bottom: 1.5rem;">
+          <span class="sticker sticker-accent" data-i18n="about-sticker">About</span>
+          <h2 style="font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; margin: 1rem 0;" data-i18n="about-title">Building Products That <span class="underline-brutal">Ship</span></h2>
+          <p style="color: var(--muted-fg); line-height: 1.8; margin-bottom: 1.5rem;" data-i18n="about-desc-1">
             Dynamic product manager with expertise in product management, development, and project execution across banking, financial technology, and insurance. Proficient in Temenos T24 Core Banking and agile methodologies to streamline processes and elevate customer experiences.
           </p>
-          <p style="color: var(--muted-fg); line-height: 1.8; margin-bottom: 2rem;">
+          <p style="color: var(--muted-fg); line-height: 1.8; margin-bottom: 2rem;" data-i18n="about-desc-2">
             Committed to transforming challenges into actionable solutions — ensuring alignment with business objectives and customer needs while delivering exceptional results.
           </p>
-          <a href="about.html" class="brutal-btn brutal-btn-secondary">Learn More About Me →</a>
+          <a href="about.html" class="brutal-btn brutal-btn-secondary" data-i18n="btn-learn-more">Learn More About Me →</a>
         </div>
         <div class="about-highlights fade-in">
           <div class="about-highlight">
             <span class="about-highlight-icon">📍</span>
             <div>
-              <h4>Based in Bekasi, Indonesia</h4>
-              <p>Working with fintech and banking teams across Jakarta and beyond.</p>
+              <h4 data-i18n="about-hl-1-title">Based in Bekasi, Indonesia</h4>
+              <p data-i18n="about-hl-1-desc">Working with fintech and banking teams across Jakarta and beyond.</p>
             </div>
           </div>
           <div class="about-highlight">
             <span class="about-highlight-icon">🎓</span>
             <div>
-              <h4>Bachelor's in Information Technology</h4>
-              <p>Universitas ABFI Perbanas</p>
+              <h4 data-i18n="about-hl-2-title">Bachelor's in Information Technology</h4>
+              <p data-i18n="about-hl-2-desc">Universitas ABFI Perbanas</p>
             </div>
           </div>
           <div class="about-highlight">
             <span class="about-highlight-icon">💼</span>
             <div>
-              <h4>Currently at Amartha Mikro Fintek</h4>
-              <p>Senior Technical Product Manager — Core Operations Platform since 2022.</p>
+              <h4 data-i18n="about-hl-3-title">Currently at Amartha Mikro Fintek</h4>
+              <p data-i18n="about-hl-3-desc">Senior Technical Product Manager — Core Operations Platform since 2022.</p>
             </div>
           </div>
           <div class="about-highlight">
             <span class="about-highlight-icon">🔗</span>
             <div>
-              <h4>Open to Opportunities</h4>
-              <p>Product leadership roles, fintech consulting, and collaborations.</p>
+              <h4 data-i18n="about-hl-4-title">Open to Opportunities</h4>
+              <p data-i18n="about-hl-4-desc">Product leadership roles, fintech consulting, and collaborations.</p>
             </div>
           </div>
         </div>
@@ -316,53 +320,53 @@
   <section class="bg-muted" id="projects-preview">
     <div class="container">
       <div class="section-header fade-in">
-        <span class="sticker sticker-secondary">Portfolio</span>
-        <h2>Featured <span class="underline-brutal">Projects</span></h2>
-        <p>Key products and platforms I've built, optimized, and delivered at scale.</p>
+        <span class="sticker sticker-secondary" data-i18n="proj-prev-sticker">Portfolio</span>
+        <h2 data-i18n="proj-prev-title">Featured <span class="underline-brutal">Projects</span></h2>
+        <p data-i18n="proj-prev-desc">Key products and platforms I've built, optimized, and delivered at scale.</p>
       </div>
       <div class="projects-grid">
         <a href="portfolio.html#ngmis" class="project-card bg-primary fade-in" style="text-decoration: none; color: inherit;">
           <div class="project-card-header">
             <div class="project-company">Amartha Mikro Fintek</div>
-            <h3>NGMIS — Next Gen Management Information System</h3>
+            <h3 data-i18n="proj-1-title">NGMIS — Next Gen Management Information System</h3>
           </div>
           <div class="project-card-body">
-            <p>Built from the ground up as Amartha's internal back-office platform serving funding, lending, CX, HR, finance, and accounting teams.</p>
+            <p data-i18n="proj-1-desc">Built from the ground up as Amartha's internal back-office platform serving funding, lending, CX, HR, finance, and accounting teams.</p>
             <div class="project-metrics">
-              <div class="project-metric"><strong>Minutes</strong><span>SLA (from 2–3 days)</span></div>
-              <div class="project-metric"><strong>88.78%</strong><span>Patching Reduction</span></div>
+              <div class="project-metric"><strong>Minutes</strong><span data-i18n="proj-1-stat-1">SLA (from 2–3 days)</span></div>
+              <div class="project-metric"><strong>88.78%</strong><span data-i18n="proj-1-stat-2">Patching Reduction</span></div>
             </div>
           </div>
         </a>
         <a href="portfolio.html#t24" class="project-card bg-lavender fade-in" style="text-decoration: none; color: inherit;">
           <div class="project-card-header">
             <div class="project-company">Amartha Mikro Fintek</div>
-            <h3>Temenos T24 Core Banking — P2P Lending</h3>
+            <h3 data-i18n="proj-2-title">Temenos T24 Core Banking — P2P Lending</h3>
           </div>
           <div class="project-card-body">
-            <p>Managing T24 Core Banking powering Amartha's P2P lending with 19–21M daily API transactions.</p>
+            <p data-i18n="proj-2-desc">Managing T24 Core Banking powering Amartha's P2P lending with 19–21M daily API transactions.</p>
             <div class="project-metrics">
-              <div class="project-metric"><strong>60–110B</strong><span>Monthly Disbursement</span></div>
-              <div class="project-metric"><strong>19–21M</strong><span>Daily API Hits</span></div>
+              <div class="project-metric"><strong>60–110B</strong><span data-i18n="proj-2-stat-1">Monthly Disbursement</span></div>
+              <div class="project-metric"><strong>19–21M</strong><span data-i18n="proj-2-stat-2">Daily API Hits</span></div>
             </div>
           </div>
         </a>
         <a href="portfolio.html#inft" class="project-card bg-accent fade-in" style="text-decoration: none; color: inherit;">
           <div class="project-card-header">
             <div class="project-company">INFT Singapore</div>
-            <h3>Agile Product Delivery Optimization</h3>
+            <h3 data-i18n="proj-3-title">Agile Product Delivery Optimization</h3>
           </div>
           <div class="project-card-body">
-            <p>Transformed customer pain points into user stories, achieving 30% increase in delivery efficiency.</p>
+            <p data-i18n="proj-3-desc">Transformed customer pain points into user stories, achieving 30% increase in delivery efficiency.</p>
             <div class="project-metrics">
-              <div class="project-metric"><strong>30%</strong><span>Efficiency Gain</span></div>
-              <div class="project-metric"><strong>2–5%</strong><span>Monthly User Growth</span></div>
+              <div class="project-metric"><strong>30%</strong><span data-i18n="proj-3-stat-1">Efficiency Gain</span></div>
+              <div class="project-metric"><strong>2–5%</strong><span data-i18n="proj-3-stat-2">Monthly User Growth</span></div>
             </div>
           </div>
         </a>
       </div>
       <div class="text-center mt-4 fade-in">
-        <a href="portfolio.html" class="brutal-btn brutal-btn-primary">View All Projects →</a>
+        <a href="portfolio.html" class="brutal-btn brutal-btn-primary" data-i18n="btn-view-all-projects">View All Projects →</a>
       </div>
     </div>
   </section>
@@ -370,8 +374,8 @@
   <!-- Companies Marquee -->
   <section style="padding: 0;">
     <div class="section-header fade-in" style="padding-top: 4rem;">
-      <span class="sticker sticker-primary">Experience</span>
-      <h2>Companies I've <span class="underline-brutal">Worked With</span></h2>
+      <span class="sticker sticker-primary" data-i18n="exp-sticker">Experience</span>
+      <h2 data-i18n="exp-title">Companies I've <span class="underline-brutal">Worked With</span></h2>
     </div>
     <div class="marquee-wrap">
       <div class="marquee">
@@ -399,34 +403,34 @@
   <section id="faq" aria-label="Frequently asked questions">
     <div class="container">
       <div class="section-header fade-in">
-        <span class="sticker sticker-primary">FAQ</span>
-        <h2>Common <span class="underline-brutal">Questions</span></h2>
+        <span class="sticker sticker-primary" data-i18n="faq-sticker">FAQ</span>
+        <h2 data-i18n="faq-title">Common <span class="underline-brutal">Questions</span></h2>
       </div>
       <div class="about-highlights" itemscope itemtype="https://schema.org/FAQPage">
         <article class="about-highlight fade-in" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <span class="about-highlight-icon" aria-hidden="true">❓</span>
           <div>
-            <h3 itemprop="name" style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.25rem;">Who is Elfandri Fitrah Madi Negoro?</h3>
+            <h3 itemprop="name" style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.25rem;" data-i18n="faq-q1">Who is Elfandri Fitrah Madi Negoro?</h3>
             <p itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="font-size: 0.85rem; color: var(--muted-fg);">
-              <span itemprop="text">A Senior Technical Product Manager with 12+ years in fintech, banking, and insurance — specializing in Temenos T24 Core Banking and operations platforms at Amartha Mikro Fintek.</span>
+              <span itemprop="text" data-i18n="faq-a1">A Senior Technical Product Manager with 12+ years in fintech, banking, and insurance — specializing in Temenos T24 Core Banking and operations platforms at Amartha Mikro Fintek.</span>
             </p>
           </div>
         </article>
         <article class="about-highlight fade-in" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <span class="about-highlight-icon" aria-hidden="true">❓</span>
           <div>
-            <h3 itemprop="name" style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.25rem;">What products has he built?</h3>
+            <h3 itemprop="name" style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.25rem;" data-i18n="faq-q2">What products has he built?</h3>
             <p itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="font-size: 0.85rem; color: var(--muted-fg);">
-              <span itemprop="text">NGMIS back-office platform, Temenos T24 P2P lending infrastructure, fintech product launches at Adiwisista, and BPR Connect financial inclusion at Bank QNB Indonesia.</span>
+              <span itemprop="text" data-i18n="faq-a2">NGMIS back-office platform, Temenos T24 P2P lending infrastructure, fintech product launches at Adiwisista, and BPR Connect financial inclusion at Bank QNB Indonesia.</span>
             </p>
           </div>
         </article>
         <article class="about-highlight fade-in" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
           <span class="about-highlight-icon" aria-hidden="true">❓</span>
           <div>
-            <h3 itemprop="name" style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.25rem;">How can I contact him?</h3>
+            <h3 itemprop="name" style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.25rem;" data-i18n="faq-q3">How can I contact him?</h3>
             <p itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="font-size: 0.85rem; color: var(--muted-fg);">
-              <span itemprop="text">Email elfandrifitrah@gmail.com, call +62 857 8088 2320, or connect on LinkedIn at linkedin.com/in/elfandrifitrah84.</span>
+              <span itemprop="text" data-i18n="faq-a3">Email elfandrifitrah@gmail.com, call +62 857 8088 2320, or connect on LinkedIn at linkedin.com/in/elfandrifitrah84.</span>
             </p>
           </div>
         </article>
@@ -438,36 +442,36 @@
   <section id="contact" class="bg-secondary" aria-label="Contact information">
     <div class="container">
       <div class="section-header fade-in">
-        <span class="sticker sticker-accent">Contact</span>
-        <h2>Let's <span class="underline-brutal">Connect</span></h2>
-        <p>Open to discussing product leadership roles, fintech consulting, and collaboration opportunities.</p>
+        <span class="sticker sticker-accent" data-i18n="contact-sticker">Contact</span>
+        <h2 data-i18n="contact-title">Let's <span class="underline-brutal">Connect</span></h2>
+        <p data-i18n="contact-subtitle">Open to discussing product leadership roles, fintech consulting, and collaboration opportunities.</p>
       </div>
       <div class="contact-grid">
         <div class="fade-in">
-          <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;">
+          <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem;" data-i18n="contact-desc">
             Whether you're looking for a product leader to scale your fintech operations, need expertise in core banking systems, or want to collaborate on a project — I'd love to hear from you.
           </p>
-          <a href="mailto:elfandrifitrah@gmail.com" class="brutal-btn brutal-btn-primary">Get in Touch →</a>
+          <a href="mailto:elfandrifitrah@gmail.com" class="brutal-btn brutal-btn-primary" data-i18n="btn-get-in-touch">Get in Touch →</a>
         </div>
         <div class="contact-links fade-in">
           <a href="mailto:elfandrifitrah@gmail.com" class="contact-link">
             <span class="contact-link-icon">✉️</span>
             <div class="contact-link-text">
-              <span>Email</span>
+              <span data-i18n="contact-email-label">Email</span>
               <strong>elfandrifitrah@gmail.com</strong>
             </div>
           </a>
           <a href="tel:+6285780882320" class="contact-link">
             <span class="contact-link-icon">📱</span>
             <div class="contact-link-text">
-              <span>Phone</span>
+              <span data-i18n="contact-phone-label">Phone</span>
               <strong>+62 857 8088 2320</strong>
             </div>
           </a>
           <a href="https://www.linkedin.com/in/elfandrifitrah84/" class="contact-link" target="_blank" rel="noopener">
             <span class="contact-link-icon">💼</span>
             <div class="contact-link-text">
-              <span>LinkedIn</span>
+              <span data-i18n="contact-linkedin-label">LinkedIn</span>
               <strong>elfandrifitrah84</strong>
             </div>
           </a>
@@ -488,6 +492,7 @@
     </div>
   </footer>
 
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

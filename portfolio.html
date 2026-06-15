@@ -62,10 +62,14 @@
       <a href="index.html" class="nav-logo">Elfandri Fitrah</a>
       <button class="nav-toggle" aria-label="Toggle menu">☰</button>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="portfolio.html" class="active">Projects</a></li>
-        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+        <li><a href="about.html" data-i18n="nav-about">About</a></li>
+        <li><a href="portfolio.html" class="active" data-i18n="nav-projects">Projects</a></li>
+        <li><a href="index.html#contact" data-i18n="nav-contact">Contact</a></li>
+        <li class="lang-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="id">ID</button>
+        </li>
       </ul>
     </div>
   </nav>
@@ -73,9 +77,9 @@
   <main id="main-content">
   <section class="page-hero" aria-label="Projects page introduction">
     <div class="container fade-in">
-      <span class="sticker sticker-secondary">Portfolio</span>
-      <h1>Featured <span class="underline-brutal">Projects</span></h1>
-      <p style="color: var(--muted-fg); max-width: 640px; margin: 1.5rem auto 0; font-size: 1.1rem; line-height: 1.8;">
+      <span class="sticker sticker-secondary" data-i18n="port-page-sticker">Portfolio</span>
+      <h1 data-i18n="port-page-title">Featured <span class="underline-brutal">Projects</span></h1>
+      <p style="color: var(--muted-fg); max-width: 640px; margin: 1.5rem auto 0; font-size: 1.1rem; line-height: 1.8;" data-i18n="port-page-desc">
         Key products and platforms I've built, optimized, and delivered — spanning core banking, back-office operations, and financial inclusion.
       </p>
     </div>
@@ -88,119 +92,119 @@
         <article class="project-card bg-primary fade-in" id="ngmis">
           <div class="project-card-header">
             <div class="project-company">PT. Amartha Mikro Fintek</div>
-            <h3>NGMIS — Next Gen Management Information System</h3>
+            <h3 data-i18n="port-ngmis-title">NGMIS — Next Gen Management Information System</h3>
           </div>
           <div class="project-card-body">
-            <p>Built from the ground up as Amartha's internal back-office web platform, NGMIS serves funding, lending, customer experience, HR, finance, and accounting teams. Transformed loan monitoring, submission, disbursement, repayment, and product configuration workflows.</p>
+            <p data-i18n="port-ngmis-desc">Built from the ground up as Amartha's internal back-office web platform, NGMIS serves funding, lending, customer experience, HR, finance, and accounting teams. Transformed loan monitoring, submission, disbursement, repayment, and product configuration workflows.</p>
             <div class="project-metrics">
-              <div class="project-metric"><strong>Minutes</strong><span>SLA (from 2–3 days)</span></div>
-              <div class="project-metric"><strong>88.78%</strong><span>Data Patching Reduction</span></div>
+              <div class="project-metric"><strong>Minutes</strong><span data-i18n="port-ngmis-stat1">SLA (from 2–3 days)</span></div>
+              <div class="project-metric"><strong>88.78%</strong><span data-i18n="port-ngmis-stat2">Data Patching Reduction</span></div>
             </div>
           </div>
           <div class="project-card-footer">
-            <span class="tag">Back-Office</span>
-            <span class="tag">Loan Ops</span>
-            <span class="tag">Product Config</span>
-            <span class="tag">Internal Tools</span>
+            <span class="tag" data-i18n="port-ngmis-tag1">Back-Office</span>
+            <span class="tag" data-i18n="port-ngmis-tag2">Loan Ops</span>
+            <span class="tag" data-i18n="port-ngmis-tag3">Product Config</span>
+            <span class="tag" data-i18n="port-ngmis-tag4">Internal Tools</span>
           </div>
         </article>
 
         <article class="project-card bg-lavender fade-in" id="t24">
           <div class="project-card-header">
             <div class="project-company">PT. Amartha Mikro Fintek</div>
-            <h3>Temenos T24 Core Banking — P2P Lending</h3>
+            <h3 data-i18n="port-t24-title">Temenos T24 Core Banking — P2P Lending</h3>
           </div>
           <div class="project-card-body">
-            <p>Managed and maintained the T24 Core Banking system powering Amartha's P2P lending product. Implemented key modules including customer & account, loans, funds transfer, limit/facility, accounting reports, and lender/borrower portfolio management.</p>
+            <p data-i18n="port-t24-desc">Managed and maintained the T24 Core Banking system powering Amartha's P2P lending product. Implemented key modules including customer & account, loans, funds transfer, limit/facility, accounting reports, and lender/borrower portfolio management.</p>
             <div class="project-metrics">
-              <div class="project-metric"><strong>60–110B</strong><span>Monthly Disbursement (IDR)</span></div>
-              <div class="project-metric"><strong>19–21M</strong><span>Daily API Transactions</span></div>
+              <div class="project-metric"><strong>60–110B</strong><span data-i18n="proj-2-stat-1">Monthly Disbursement (IDR)</span></div>
+              <div class="project-metric"><strong>19–21M</strong><span data-i18n="stat-3-label">Daily API Transactions</span></div>
             </div>
           </div>
           <div class="project-card-footer">
-            <span class="tag">Temenos T24</span>
-            <span class="tag">Core Banking</span>
-            <span class="tag">P2P Lending</span>
-            <span class="tag">API</span>
+            <span class="tag" data-i18n="port-t24-tag1">Temenos T24</span>
+            <span class="tag" data-i18n="port-t24-tag2">Core Banking</span>
+            <span class="tag" data-i18n="port-t24-tag3">P2P Lending</span>
+            <span class="tag" data-i18n="port-t24-tag4">API</span>
           </div>
         </article>
 
         <article class="project-card bg-accent fade-in" id="inft">
           <div class="project-card-header">
             <div class="project-company">INFT Singapore Pte. Ltd</div>
-            <h3>Agile Product Delivery Optimization</h3>
+            <h3 data-i18n="port-inft-title">Agile Product Delivery Optimization</h3>
           </div>
           <div class="project-card-body">
-            <p>Transformed customer pain points into actionable user stories and optimized the product backlog. Streamlined production processes, serving as the voice of the customer while aligning delivery with the CTO and Product Owner roadmap.</p>
+            <p data-i18n="port-inft-desc">Transformed customer pain points into actionable user stories and optimized the product backlog. Streamlined production processes, serving as the voice of the customer while aligning delivery with the CTO and Product Owner roadmap.</p>
             <div class="project-metrics">
-              <div class="project-metric"><strong>30%</strong><span>Delivery Efficiency Gain</span></div>
-              <div class="project-metric"><strong>2–5%</strong><span>Monthly User Growth</span></div>
+              <div class="project-metric"><strong>30%</strong><span data-i18n="port-inft-stat1">Delivery Efficiency Gain</span></div>
+              <div class="project-metric"><strong>2–5%</strong><span data-i18n="port-inft-stat2">Monthly User Growth</span></div>
             </div>
           </div>
           <div class="project-card-footer">
-            <span class="tag">Agile/Scrum</span>
-            <span class="tag">User Stories</span>
-            <span class="tag">Backlog</span>
+            <span class="tag" data-i18n="port-inft-tag1">Agile/Scrum</span>
+            <span class="tag" data-i18n="port-inft-tag2">User Stories</span>
+            <span class="tag" data-i18n="port-inft-tag3">Backlog</span>
           </div>
         </article>
 
         <article class="project-card bg-secondary fade-in" id="adiwisista">
           <div class="project-card-header">
             <div class="project-company">PT. Adiwisista Finansial Teknologi</div>
-            <h3>Fintech Product Launches & Go-to-Market</h3>
+            <h3 data-i18n="port-adiwisista-title">Fintech Product Launches & Go-to-Market</h3>
           </div>
           <div class="project-card-body">
-            <p>Designed and launched fintech products by identifying value propositions and crafting tactical marketing strategies. Led cross-functional collaborations with IT, UI/UX, and Operations while establishing partnerships with banks, payment gateways, cloud services, and e-KYC providers.</p>
+            <p data-i18n="port-adiwisista-desc">Designed and launched fintech products by identifying value propositions and crafting tactical marketing strategies. Led cross-functional collaborations with IT, UI/UX, and Operations while establishing partnerships with banks, payment gateways, cloud services, and e-KYC providers.</p>
             <div class="project-metrics">
-              <div class="project-metric"><strong>Multi-dept</strong><span>Cross-functional</span></div>
-              <div class="project-metric"><strong>e-KYC</strong><span>Vendor Integrations</span></div>
+              <div class="project-metric"><strong>Multi-dept</strong><span data-i18n="port-adiwisista-stat1">Cross-functional</span></div>
+              <div class="project-metric"><strong>e-KYC</strong><span data-i18n="port-adiwisista-stat2">Vendor Integrations</span></div>
             </div>
           </div>
           <div class="project-card-footer">
-            <span class="tag">Product Launch</span>
-            <span class="tag">Go-to-Market</span>
-            <span class="tag">Payment Gateway</span>
-            <span class="tag">e-KYC</span>
+            <span class="tag" data-i18n="port-adiwisista-tag1">Product Launch</span>
+            <span class="tag" data-i18n="port-adiwisista-tag2">Go-to-Market</span>
+            <span class="tag" data-i18n="port-adiwisista-tag3">Payment Gateway</span>
+            <span class="tag" data-i18n="port-adiwisista-tag4">e-KYC</span>
           </div>
         </article>
 
         <article class="project-card bg-cyan fade-in" id="bpr">
           <div class="project-card-header">
             <div class="project-company">PT. Bank QNB Indonesia</div>
-            <h3>BPR Connect — Financial Inclusion</h3>
+            <h3 data-i18n="port-bpr-title">BPR Connect — Financial Inclusion</h3>
           </div>
           <div class="project-card-body">
-            <p>Supervised end-to-end implementation of the BPR Connect project, placing ATM machines at BPR and cooperative locations. Created SOPs and user guides, managed customer relationships, and led UAT for digital savings accounts, retail internet banking, and the DooEt+ mobile app.</p>
+            <p data-i18n="port-bpr-desc">Supervised end-to-end implementation of the BPR Connect project, placing ATM machines at BPR and cooperative locations. Created SOPs and user guides, managed customer relationships, and led UAT for digital savings accounts, retail internet banking, and the DooEt+ mobile app.</p>
             <div class="project-metrics">
-              <div class="project-metric"><strong>ATM</strong><span>Network Deployment</span></div>
-              <div class="project-metric"><strong>DooEt+</strong><span>Mobile Banking</span></div>
+              <div class="project-metric"><strong>ATM</strong><span data-i18n="port-bpr-stat1">Network Deployment</span></div>
+              <div class="project-metric"><strong>DooEt+</strong><span data-i18n="port-bpr-stat2">Mobile Banking</span></div>
             </div>
           </div>
           <div class="project-card-footer">
-            <span class="tag">Financial Inclusion</span>
-            <span class="tag">ATM</span>
-            <span class="tag">UAT</span>
-            <span class="tag">Digital Banking</span>
+            <span class="tag" data-i18n="port-bpr-tag1">Financial Inclusion</span>
+            <span class="tag" data-i18n="port-bpr-tag2">ATM</span>
+            <span class="tag" data-i18n="port-bpr-tag3">UAT</span>
+            <span class="tag" data-i18n="port-bpr-tag4">Digital Banking</span>
           </div>
         </article>
 
         <article class="project-card bg-muted fade-in" id="andara">
           <div class="project-card-header">
             <div class="project-company">PT. Bank Andara (OK Bank)</div>
-            <h3>T24 Core Banking & AndaraLink Operations</h3>
+            <h3 data-i18n="port-andara-title">T24 Core Banking & AndaraLink Operations</h3>
           </div>
           <div class="project-card-body">
-            <p>Six years managing daily operations for Temenos T24 Core Banking and the AndaraLink system. Handled user access administration, HP ProLiant and VMware vSphere server management, Data Center/DRC operations, and daily/monthly Close of Business (COB) processes.</p>
+            <p data-i18n="port-andara-desc">Six years managing daily operations for Temenos T24 Core Banking and the AndaraLink system. Handled user access administration, HP ProLiant and VMware vSphere server management, Data Center/DRC operations, and daily/monthly Close of Business (COB) processes.</p>
             <div class="project-metrics">
-              <div class="project-metric"><strong>6 Years</strong><span>Core Banking Ops</span></div>
-              <div class="project-metric"><strong>COB</strong><span>Daily & Monthly Runs</span></div>
+              <div class="project-metric"><strong>6 Years</strong><span data-i18n="port-andara-stat1">Core Banking Ops</span></div>
+              <div class="project-metric"><strong>COB</strong><span data-i18n="port-andara-stat2">Daily & Monthly Runs</span></div>
             </div>
           </div>
           <div class="project-card-footer">
-            <span class="tag">Temenos T24</span>
-            <span class="tag">AndaraLink</span>
-            <span class="tag">VMware</span>
-            <span class="tag">Data Center</span>
+            <span class="tag" data-i18n="port-andara-tag1">Temenos T24</span>
+            <span class="tag" data-i18n="port-andara-tag2">AndaraLink</span>
+            <span class="tag" data-i18n="port-andara-tag3">VMware</span>
+            <span class="tag" data-i18n="port-andara-tag4">Data Center</span>
           </div>
         </article>
 
@@ -211,13 +215,13 @@
   <!-- CTA -->
   <section class="bg-secondary">
     <div class="container text-center fade-in">
-      <span class="sticker sticker-accent">Let's Talk</span>
-      <h2 style="font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700; margin: 1rem 0;">Interested in Working Together?</h2>
-      <p style="color: var(--muted-fg); max-width: 500px; margin: 0 auto 2rem;">
+      <span class="sticker sticker-accent" data-i18n="port-cta-sticker">Let's Talk</span>
+      <h2 style="font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 700; margin: 1rem 0;" data-i18n="port-cta-title">Interested in Working Together?</h2>
+      <p style="color: var(--muted-fg); max-width: 500px; margin: 0 auto 2rem;" data-i18n="port-cta-desc">
         I'm always open to discussing product leadership opportunities and fintech collaborations.
       </p>
-      <a href="mailto:elfandrifitrah@gmail.com" class="brutal-btn brutal-btn-primary">Get in Touch →</a>
-      <a href="about.html" class="brutal-btn brutal-btn-outline" style="margin-left: 1rem;">About Me</a>
+      <a href="mailto:elfandrifitrah@gmail.com" class="brutal-btn brutal-btn-primary" data-i18n="btn-get-in-touch">Get in Touch →</a>
+      <a href="about.html" class="brutal-btn brutal-btn-outline" style="margin-left: 1rem;" data-i18n="btn-about-me">About Me</a>
     </div>
   </section>
   </main>
@@ -233,6 +237,7 @@
     </div>
   </footer>
 
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

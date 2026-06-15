@@ -206,6 +206,37 @@ img {
   box-shadow: var(--shadow-brutal);
 }
 
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  border: 4px solid var(--border);
+  background: var(--card);
+  box-shadow: var(--shadow-brutal);
+}
+
+.lang-btn {
+  padding: 0.3rem 0.6rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  border-right: 4px solid var(--border);
+  color: var(--muted-fg);
+  transition: all var(--transition);
+}
+
+.lang-btn:last-child {
+  border-right: none;
+}
+
+.lang-btn.active,
+.lang-btn:hover {
+  background: var(--accent);
+  color: var(--foreground);
+}
+
 .nav-toggle {
   display: none;
   background: var(--primary);
