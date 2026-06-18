@@ -154,6 +154,18 @@ img {
 .bg-lavender { background: var(--lavender); }
 .bg-cyan { background: var(--cyan); }
 .bg-muted { background: var(--muted); }
+.bg-rose { background: hsl(350, 50%, 82%); }
+
+.tag-link {
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.tag-link:hover {
+  background: var(--border) !important;
+  color: var(--bg) !important;
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 0 var(--border);
+}
 
 /* Navigation */
 .navbar {
